@@ -1,0 +1,20 @@
+{
+  "name": "rollup-ts-paths-alias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -cw",
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.1",
+    "rollup": "^2.20.0",
+    "rollup-plugin-ts": "^1.2.27",
+    "typescript": "^3.9.6"
+  }
+}
